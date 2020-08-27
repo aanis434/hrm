@@ -27,7 +27,6 @@
             <li><a href="{{ route('employee.create') }}"><i class="fa fa-circle-o"></i> Create Employee</a></li>
             @endif
             <li><a href="{{ route('profile') }}"><i class="fa fa-circle-o"></i> Profile</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i> Attendance</a></li>
           </ul>
         </li>
       </ul>

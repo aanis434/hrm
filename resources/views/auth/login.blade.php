@@ -36,7 +36,7 @@
       <div class="form-group has-feedback">
         <input type="email" name="email" class="form-control @error('email') is-invalid @enderror"  value="{{ old('email') }}" required autocomplete="email" autofocus placeholder="Email">
         @error('email')
-            <span class="invalid-feedback" role="alert">
+            <span class="invalid-feedback text-danger" role="alert">
                 <strong>{{ $message }}</strong>
             </span>
         @enderror
@@ -45,7 +45,7 @@
       <div class="form-group has-feedback">
         <input type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password" placeholder="Password">
         @error('password')
-              <span class="invalid-feedback" role="alert">
+              <span class="invalid-feedback text-danger" role="alert">
                   <strong>{{ $message }}</strong>
               </span>
           @enderror

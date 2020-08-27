@@ -8,11 +8,9 @@ Run `composer install command`
 
 Run ``php artisan migrate --seed command.``
 
-Notice: seed is important, because it will create the first admin user and 1 employee for you.
+Notice: seed is important, because it will create the first admin and 1 employee user for you.
 
 Run `php artisan key:generate command.`
-
-If you have file/photo fields, run php artisan storage:link command.
 
 And that's it, go to your domain and login:
 
